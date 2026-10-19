@@ -1,0 +1,9 @@
+{
+  "name": "oneover",
+  "version": "1.0.0",
+  "description": "Official OneOver plugin. Connects Claude to the OneOver MCP server for image, video, and audio generation, multi-model chat, apps, assets, and usage.",
+  "author": { "name": "OneOver", "url": "https://oneover.com" },
+  "homepage": "https://oneover.com/developers/mcp",
+  "license": "MIT",
+  "keywords": ["mcp", "oneover", "image", "video", "audio", "chat"]
+}

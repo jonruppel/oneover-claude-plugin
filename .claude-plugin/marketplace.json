@@ -1,0 +1,17 @@
+{
+  "name": "oneover",
+  "owner": { "name": "OneOver", "url": "https://oneover.com" },
+  "metadata": {
+    "description": "Official OneOver plugins for Claude: chat, image, video, and audio models over MCP."
+  },
+  "plugins": [
+    {
+      "name": "oneover",
+      "source": "./plugins/oneover",
+      "description": "Official OneOver MCP server and skill. Generate images, video, and audio, chat with other frontier models, and check credits.",
+      "homepage": "https://oneover.com/developers/mcp",
+      "category": "media",
+      "keywords": ["mcp", "image-generation", "video-generation", "audio", "chat", "oneover"]
+    }
+  ]
+}
