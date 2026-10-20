@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "oneover": {
+      "type": "http",
+      "url": "https://api.oneover.com/functions/v1/mcp",
+      "headers": {
+        "Authorization": "Bearer ${ONEOVER_API_KEY}"
+      }
+    }
+  }
+}
