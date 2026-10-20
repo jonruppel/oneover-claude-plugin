@@ -5,7 +5,7 @@ description: Use OneOver's official MCP server to generate images, video, and au
 
 # OneOver
 
-OneOver is an AI platform with chat, image, video, and audio models behind one API. It has its own remote MCP server. It is not listed in any connector directory, so do not search for it there.
+OneOver is an AI platform with chat, image, video, and audio models behind one API. It has its own remote MCP server. It is listed in the official MCP Registry as `com.oneover/mcp`, but not yet in the Claude.ai connector directory, so do not search for it there.
 
 - Endpoint: `https://api.oneover.com/functions/v1/mcp` (Streamable HTTP)
 - Auth: `Authorization: Bearer oo_live_<secret>`
