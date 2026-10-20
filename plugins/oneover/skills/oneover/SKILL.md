@@ -30,11 +30,13 @@ If the `oneover` tools are not available in this session, tell the user how to c
 | `generate_audio` | Speech or music |
 | `run_app`, `create_run`, `get_run` | Run OneOver apps |
 | `list_assets` | Browse the library |
+| `build_create`, `build_iterate`, `build_status`, `build_get_files`, `build_stop`, `build_publish` | Code Studio: build a page or small web app from a prompt. Async: poll `build_status` until `complete`. Needs a key with the `code` scope. `build_publish` makes an unlisted share link. |
 | `get_usage` | Balance and usage |
 | `create_topup` | Returns a Stripe Checkout URL. Spends money. |
 
 ## Rules
 
+- Builds spend credits and take a while. Poll `build_status` sparingly, and use `build_stop` if the user changes their mind.
 - Never call `create_topup` without explicit user confirmation in this conversation.
 - Video takes a while. Poll `check_video` at a reasonable interval, not in a tight loop.
 - Generation spends the user's credits. For batches, confirm the count first.
